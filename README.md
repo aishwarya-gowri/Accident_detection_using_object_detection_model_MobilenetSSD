@@ -39,3 +39,8 @@ accident detection code.
       triggers video transmission code.
       ● Other vehicles in the same network receive the video
       through socket programming.
+      
+```
+For live video broadcast
+1. Sender captures the video and sends it to the cacheServer
+2. The cacheServer stores the video and sends it to the other clients(Vehicles in this application)
