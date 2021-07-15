@@ -15,25 +15,27 @@ Installation and execution of the code :-
 3. Install tensorflow1.5
 4. Install the following python packages with the following
 commands -
-a. pip install cython
-b. pip install scipy
-c. pip install dataclasses
-d. pip install gin-config
-e. pip install lvis
-f. pip install pycocotools
-g. pip install imutils
-h. pip install opencv-python
+   ```    
+      a. pip install cython
+      b. pip install scipy
+      c. pip install dataclasses
+      d. pip install gin-config
+      e. pip install lvis
+      f. pip install pycocotools
+      g. pip install imutils
+      h. pip install opencv-python
+      i. pip install pickle
 
-i. pip install pickle
 5. Go to the models /research /object_detection /
 object_detection_webcame.py
 6. Run the Object_detection_webcam python file to start the
 accident detection code.
-Note:
-● This file accesses the webcam or the pi cam (incase of
-our project) and begins the surveillance of the
-surroundings.
-● When an accident is detected the file automatically
-triggers video transmission code.
-● Other vehicles in the same network receive the video
-through socket programming.
+
+```Note:
+      ● This file accesses the webcam or the pi cam (incase of
+      our project) and begins the surveillance of the
+      surroundings.
+      ● When an accident is detected the file automatically
+      triggers video transmission code.
+      ● Other vehicles in the same network receive the video
+      through socket programming.
